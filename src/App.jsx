@@ -9,7 +9,7 @@ import Accounts from './pages/Accounts/Accounts';
 import Messages from './pages/Messages/Messages';
 import Contents from './pages/Contents/Contents';
 import Onboarding from './pages/Authentication/Onboarding';
-import Signup from './pages/Authentication/SignUp';
+import SignUp from './pages/Authentication/SignUp';
 import Otp from './pages/Authentication/OTP';
 import ResetPassword from './pages/Authentication/ResetPassword';
 import ForgotPassword from './pages/Authentication/ForgotPassword';
@@ -95,7 +95,7 @@ function App() {
               element={
                 <>
                   <PageTitle title="SignUp | NiyogHub" />
-                  <Signup />
+                  <SignUp />
                 </>
               }
             /> 
